@@ -1,0 +1,19 @@
+{
+    "mcpServers": {
+      "agent_registry": {
+        "command": "/opt/homebrew/bin/uv",  
+        "args": [
+            "--directory",
+            "/Users/thandavm/work/code-work/ud/mcp",
+            "run",
+            "aws_mcp.py"
+        ],
+        "env": {
+          "AWS_ACCESS_KEY_ID": "YOUR_ACCESS_KEY_ID",
+          "AWS_SECRET_ACCESS_KEY": "YOUR_SECRET_ACCESS_KEY",
+          "AWS_REGION": "us-east-1",
+          "MCP_TRANSPORT": "stdio"
+        }
+      }
+    }
+  }
